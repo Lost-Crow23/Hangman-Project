@@ -15,7 +15,7 @@ def check_guess(guess):
 
     return: checks the single alphabet within the secret_word to be valid or false
     """
-    guess.lower 
+    guess.lower() 
     if len(guess) == 1 and guess.isalpha():
         if guess in secret_word:
             # if in secret_word, prints out the correct guessed letter
