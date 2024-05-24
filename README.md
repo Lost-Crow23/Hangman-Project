@@ -12,6 +12,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
     - gitignore 
 - milestone_2.py
 - milestone_3.py
+- milestone_4.py
 
 ## Aim and Conclusion
 
@@ -30,4 +31,10 @@ Using the while and if loops to structure a boolean value within my code is esse
 
 ### File Structure 
 
+This is an `object orientated programming(OOP)` version of the classic game of hangman which illustrates the use of class, objects and methods then finally calling the class as a variable under the `play game` define function. The file constructs of `importing random` then passing `hangman` as a class and it's attributes thus passing on methods(rules) for the backbone of when the game is played.
+
+This is a `.py` (python) file 
+
 ### licence Information
+
+No licence at the moment. Anyone can download and use the following files and documents within their own personal machine.
