@@ -1,4 +1,3 @@
-
 import random
 
 class Hangman:
@@ -101,3 +100,51 @@ class Hangman:
                 self.list_of_guesses.append(letter)
                 self.__check_guess(letter)
                 break
+
+def play_game(word_list):
+    """
+
+    1. Initializes as an hint of unique characters within the word
+    2. Iteratively asks the user for a letter until the user guesses the word or runs out of lives
+    # If the user runs out of lives, prints "You lost! The word was {word}"
+    # If the user guesses the word, prints "Congratulations! You won!"
+    3. If everything is false, calls the function of {ask_letter}
+
+    Parameters
+    ----------
+
+    word_list 
+        passes the word list as a variable to play the game 
+
+    """
+    game = Hangman(word_list, num_lives=5)
+
+    """
+    game = Instance of the class, which passes and equals to the class 
+    """
+    print(f"The mystery word has {str(game.num_letters)} unique characters")
+    print(''.join(game.word_guessed))
+    while True:
+        if game.num_lives == 0:
+            print(f"You lost! The word was {game.word}")
+            break
+        if '_' not in game.word_guessed or game.word_guessed == game.word:
+            print("Congratulations! You Won! ")
+            break
+        else:
+            game.ask_letter()
+
+if __name__ == '__main__':
+    """
+    # __name__ = __main__ if this file is imported as a module, code would not run
+    # ensures it executes only when the file is run directly as a script
+    1. {Word_list} to be passed 
+    2. Call the function play game
+    
+    Returns 
+    -------
+    Mystery word with the visual users "guessed so far" list
+    word_list may be edited or improved to enhance the game or offer a variety of words
+    """
+    word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
+    play_game(word_list)
