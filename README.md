@@ -84,6 +84,6 @@ This is an `object orientated programming(OOP)` version of the classic game of h
 
 This is a `.py` (python) file 
 
-### licence Information
+### Licence Information
 
 No licence at the moment. Anyone can download and use the following files and documents within their own personal machine.
