@@ -11,6 +11,8 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - hangman template
     - gitignore 
 - Aim and Conclusion
+   - What  I learned
+   - Improvements
 - Installation Instruction
 - Usage Instruction
 - File Structure
@@ -25,10 +27,15 @@ The key factors that was to be established in this hangman project is:
  - Use different methods and functions to illustrate basic skills of python
  -  Ability to abstract and encapsulate the given conditions and rules 
 
-
-What I learned is the basics of using such powerful tools like the use of the `import` keyword which address's a particular module and is very vital for structering your code. Implementing the `D.R.Y` factor. 
+### What I learned
+The basics of using such powerful tools like the use of the `import` keyword which address's a particular module and is very vital for structering your code. Implementing the `D.R.Y` factor. 
 
 Using the `while` and `if` loops to structure a boolean value within my code is essential to deliver a game with an `input`(function) and is the key to control flow to achieve such a simple but assertive game.
+
+### Improvements
+
+- Coding a feature visualisation image to track the amount of wrong input guesses such as when you play it tradionally.
+- Adding a module, which inputs a dictionary that rather having a limited number of words, it will be alot more. 
 
 ### Installation Instruction 
 
@@ -44,6 +51,16 @@ Using the `while` and `if` loops to structure a boolean value within my code is 
   - Python 3.x
   - VScode, IDE or google colab
 ### File Structure 
+
+#### Folder tree
+.
+├── README.md
+├── hangman
+│   └── hangman_Template.py
+├── milestone_2.py
+├── milestone_3.py
+├── milestone_4.py
+└── milestone_5.py
 
 This is an `object orientated programming(OOP)` version of the classic game of hangman which illustrates the use of class, objects and methods then finally calling the class as a variable under the `play game` define function. The file constructs of `importing random` then passing `hangman` as a class and it's attributes thus passing on methods(rules) for the backbone of when the game is played.
 
@@ -63,7 +80,6 @@ This is an `object orientated programming(OOP)` version of the classic game of h
 `milestone_5`
 
 - Final Step of the hangman defining the `play_game` function 
-
 
 This is a `.py` (python) file 
 
