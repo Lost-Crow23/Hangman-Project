@@ -16,6 +16,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - Installation Instruction
 - Usage Instruction
 - File Structure
+    - Tree
 - Licence Information
 
 ## Aim and Conclusion
@@ -53,7 +54,7 @@ Using the `while` and `if` loops to structure a boolean value within my code is 
 ### File Structure 
 
 #### Folder tree
-.
+```
 ├── README.md
 ├── hangman
 │   └── hangman_Template.py
@@ -61,7 +62,7 @@ Using the `while` and `if` loops to structure a boolean value within my code is 
 ├── milestone_3.py
 ├── milestone_4.py
 └── milestone_5.py
-
+```
 This is an `object orientated programming(OOP)` version of the classic game of hangman which illustrates the use of class, objects and methods then finally calling the class as a variable under the `play game` define function. The file constructs of `importing random` then passing `hangman` as a class and it's attributes thus passing on methods(rules) for the backbone of when the game is played.
 
 `hangman template` 
