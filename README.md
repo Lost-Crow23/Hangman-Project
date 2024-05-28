@@ -16,6 +16,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - Installation Instruction
 - Usage Instruction
 - File Structure
+    - Tree
 - Licence Information
 
 ## Aim and Conclusion
