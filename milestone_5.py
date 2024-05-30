@@ -63,10 +63,12 @@ class Hangman:
             The letter to be checked
 
         """
-        guess.lower() # converts capitals in word to lowercase
+        # converts capitals in word to lowercase
+        guess.lower() 
         if guess in self.word:
             print(f"Good guess!: {guess} is in secret word {self.word}")
-            for char in range(len(self.word)): # guess (letter) Itirates over the index's with the length of the word
+            # guess (letter) Itirates over the index's with the length of the word
+            for char in range(len(self.word)):
                 if self.word[char] == guess:
                     self.word_guessed[char] = guess
             self.num_letters -=1
