@@ -52,12 +52,14 @@ class Hangman:
     def __check_guess(self, guess) -> None: 
         """
         Checks if the letter is in the word.
-        If it is, it replaces the '_' in the word_guessed list with the letter, thus reducing the num_letters variable by 1.
+        If it is, it replaces the '_' in the word_guessed list with the letter, 
+        thus reducing the num_letters variable by 1.
         If it is not, it reduces the number of lives by 1.
 
         Parameters:
         ----------
-        (' __ ' = private methods cannot be accessed directly from outside the class, but used within class/subclass)
+        (' __ ' = private methods cannot be accessed directly from outside the class, 
+        but used within class/subclass).
 
         guess: str
             The letter to be checked
