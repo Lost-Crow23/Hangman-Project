@@ -44,7 +44,7 @@ class Hangman:
             self.num_lives = num_lives
             self.word = random.choice(word_list) 
             print(f"This is the word: {self.word}")
-            self.word_guessed = ['_'] * len(self.word) # 
+            self.word_guessed = ['_'] * len(self.word) 
             self.num_letters = len(set(self.word))
             print(f"This is the current state of the users guessed word: {self.word_guessed}")
             self.list_of_guesses = []
