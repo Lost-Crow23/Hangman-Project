@@ -43,7 +43,7 @@ Using the `while` and `if` loops to structure a boolean value within my code is 
 1. Fork the python file onto your own github repo 
 2. `Git clone` onto your local IDE onto your chosen path
 3. Once opened, browse the folder and open...
-4. You have to run the file within the script by using the provided function in the script `if __name__ == __main__`. 
+4. You have to run the file within the script by using the provided function in the script `if __name__ == "__main__"`. 
 5. Once ran, you may play the game. 
 
 ### Usage Instruction
